@@ -135,7 +135,7 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-# for workspace-rolodex only
+# ignore folder history file
 .DS_Store
 
 # Ignore node_modules

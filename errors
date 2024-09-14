@@ -1,0 +1,24 @@
+local dev for child
+
+ERROR in main
+Module not found: Error: Can't resolve './src/index.js' in '/Users/sbecker11/workspace-rolodex/child'
+
+ERROR in unable to locate '/Users/sbecker11/workspace-rolodex/child/favicon.ico' glob
+
+ERROR in unable to locate '/Users/sbecker11/workspace-rolodex/child/media' glob
+
+ERROR in   Error: Child compilation failed:
+  Module not found: Error: Can't resolve '/Users/sbecker11/workspace-rolodex/child/index.html' in '/Users/sbecker11/workspac  e-rolodex/child'
+  ModuleNotFoundError: Module not found: Error: Can't resolve '/Users/sbecker11/workspace-rolodex/child/index.html' in '/Use  rs/sbecker11/workspace-rolodex/child'
+      at /Users/sbecker11/workspace-rolodex/node_modules/webpack/lib/Compilation.js:2109:28
+
+
+github-pages
+ERROR on console
+ailed to load resource: the server responded with a status of 404 ()
+main.fa04fea8c78796134308.js:1 
+        
+https://sbecker11.github.io/workspace-rolodex-dist
+
+workspace-rolodex-dist:1 
+GET https://sbecker11.github.io/workspace-rolodex-dist 404 (Not Found)
