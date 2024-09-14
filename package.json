@@ -1,0 +1,15 @@
+{
+  "name": "workspace-rolodex-dist",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "homepage": "https://sbecker11.github.io/workspace-rolodex-dist",
+  "scripts": {
+    "clean-dist": "rm -rf ./dist/*",
+    "clean-node": "rm -rf ./node_modules ./package-lock.json && npm cache clean --force",
+    "clean": "npm run clean-dist && npm run clean-node",
+    "build": "echo 'child does not build own dist only copies parent dist'",
+    "start": "webpack-dev-server --config ./webpack.config.js --content-base ./dist --port 9001",
+    "install-deps": "node ../installAllDependencies.js ../all-dependencies.json",
+    "copy-parent-dist": "run npm clean-dist && cp -r ../dist/* ./dist/"
+  }
+}
