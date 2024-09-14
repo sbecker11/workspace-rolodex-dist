@@ -79,6 +79,12 @@ web_modules/
 .env.production.local
 .env.local
 
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 .parcel-cache
@@ -131,3 +137,9 @@ dist
 
 # for workspace-rolodex only
 .DS_Store
+
+# Ignore node_modules
+node_modules/
+
+# Ignore build output
+dist/
